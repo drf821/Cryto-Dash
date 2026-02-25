@@ -1,4 +1,3 @@
-
 // LimitSelector.jsx
 
 const LimitSelector = ({limit, onLimitChange}) => {

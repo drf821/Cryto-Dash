@@ -1,4 +1,3 @@
-
 // CoinCard.jsx
 
 import { Link } from "react-router";

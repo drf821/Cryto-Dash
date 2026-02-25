@@ -1,3 +1,5 @@
+// home.jsx
+
 import CoinCard from "../components/CoinCard";
 import LimitSelector from "../components/LimitSelector";
 import FilterInput from "../components/FilterInput";
@@ -40,7 +42,7 @@ const HomePage = ({
 });
     return (
         <div>
-      <h1> Crypto Dash</h1>
+      <h1>Crypto Dash</h1>
       {loading && <Spinner color='white' />}
       {error && <div className='error'> {error}</div>}
       <div className="top-controls">

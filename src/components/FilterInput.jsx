@@ -1,5 +1,4 @@
-
-// FilterInput
+// FilterInput.jsx
 
 const FilterInput = ({filter, onFilterChange}) => {
     return ( <div className="filter">

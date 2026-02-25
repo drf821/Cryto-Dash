@@ -1,3 +1,5 @@
+// coin-details.jsx
+
 import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router";
@@ -71,7 +73,7 @@ const CoinDetailsPage = () => {
                         <a
                             href={coin.links.homepage[0]} 
                             target='_blank' 
-                            rel='noopener nreferrer'
+                            rel='noopener noreferrer'
                             >
                                 Website
                             </a>
@@ -84,9 +86,9 @@ const CoinDetailsPage = () => {
                         <a
                             href={coin.links.blockchain_site[0]}
                             target='_blank'
-                            re1='noopener noreferrer'
+                            rel='noopener noreferrer'
                         >
-                            Blackchain Explorer
+                            Blockchain Explorer
                         </a>
                     </p>
                 )}
